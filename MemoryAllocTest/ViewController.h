@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MethodsToTest.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    @private
+    NSArray *testMethods;
+    NSArray *testLabels;
+    MethodsToTest *methodsClass;
+}
 
-@property (strong, nonatomic) IBOutlet UILabel *executionTime;
+@property (strong, nonatomic) IBOutlet UILabel *executionTime1;
+@property (strong, nonatomic) IBOutlet UILabel *executionTime2;
+@property (strong, nonatomic) IBOutlet UILabel *executionTime3;
+@property (strong, nonatomic) IBOutlet UILabel *executionTime4;
 
 @end

@@ -18,6 +18,7 @@
 		13A9B4F4165DED9A004AC54A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A9B4F3165DED9A004AC54A /* Default-568h@2x.png */; };
 		13A9B4F7165DED9A004AC54A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A9B4F6165DED9A004AC54A /* ViewController.m */; };
 		13A9B4FA165DED9A004AC54A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A9B4F8165DED9A004AC54A /* ViewController.xib */; };
+		13A9B506165E163A004AC54A /* MethodsToTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A9B505165E163A004AC54A /* MethodsToTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		13A9B4F5165DED9A004AC54A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		13A9B4F6165DED9A004AC54A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13A9B4F9165DED9A004AC54A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		13A9B504165E163A004AC54A /* MethodsToTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsToTest.h; sourceTree = "<group>"; };
+		13A9B505165E163A004AC54A /* MethodsToTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsToTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		13A9B500165DF065004AC54A /* TargetClasses */ = {
 			isa = PBXGroup;
 			children = (
+				13A9B504165E163A004AC54A /* MethodsToTest.h */,
+				13A9B505165E163A004AC54A /* MethodsToTest.m */,
 			);
 			name = TargetClasses;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				13A9B4EA165DED9A004AC54A /* main.m in Sources */,
 				13A9B4EE165DED9A004AC54A /* AppDelegate.m in Sources */,
 				13A9B4F7165DED9A004AC54A /* ViewController.m in Sources */,
+				13A9B506165E163A004AC54A /* MethodsToTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoryAllocTest/MemoryAllocTest-Prefix.pch";
 				INFOPLIST_FILE = "MemoryAllocTest/MemoryAllocTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoryAllocTest/MemoryAllocTest-Prefix.pch";
 				INFOPLIST_FILE = "MemoryAllocTest/MemoryAllocTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +307,7 @@
 				13A9B4FF165DED9A004AC54A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,12 +12,18 @@
 
 
 -(void)test1{
-    NSArray *arr = [[NSArray alloc] init];
-    [arr count];
+    for (int i = 0 ; i < 10000; i++) {
+        NSArray *arr = [[NSArray alloc] initWithObjects:@"1", nil];
+        [arr count];
+        arr = nil;
+    }
 }
 -(void)test2{
-    NSArray *arr = [NSArray arrayWithObjects:@"1",nil];
-    [arr count];
+    for (int i = 0 ; i < 10000; i++) {
+        NSArray *arr = [NSArray arrayWithObjects:@"1",nil];
+        [arr count];
+        arr = nil;
+    }
 }
 -(void)test3{
     
